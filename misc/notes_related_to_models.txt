@@ -1,0 +1,4 @@
+blip2_image_text_matching
+  model: 1.89gb
+  vis_processor: 4.37gb
+  

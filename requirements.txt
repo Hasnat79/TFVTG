@@ -1,0 +1,7 @@
+pytorch
+torchvision
+tqdm
+salesforce-lavis
+scikit-learn
+json5
+opencv-python==4.7.0.72

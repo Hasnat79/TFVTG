@@ -1,0 +1,7 @@
+Position interpolate from 16x16 to 26x26
+Position interpolate from 16x16 to 26x26
+mIoU: 0.07036082064208979
+R@0.3: 0.0
+R@0.5: 0.0
+R@0.7: 0.0
+(11, 32, 256)

@@ -1,0 +1,22 @@
+Position interpolate from 16x16 to 26x26
+=============inside get_visual_features ===============
+=============inside load video ===============
+Video loaded: //home/grads/h/hasnat.md.abdullah/TFVTG/sample_videos/34 Funny Kid Nominees - FailArmy Hall Of Fame (May 2017)0.mp4
+durations: 3.6369703036369705
+fps: 3
+num_sampled_frames: 11
+length of all_index: 11
+vr.get_batch(all_index).shape: torch.Size([11, 720, 1280, 3])
+buffer shape: torch.Size([11, 3, 720, 1280])
+=============inside load video ===============
+video/image list shape before vis_processor: torch.Size([11, 3, 720, 1280])
+image shape after going through vis_processors: torch.Size([11, 3, 364, 364])
+img.size(0): 11
+	batch_img shape: torch.Size([11, 3, 364, 364])
+	image_embeds shape after model.lnvision: torch.Size([11, 677, 1408])
+	image_atts shape: torch.Size([11, 677])
+	shapes of model.query_tokens: torch.Size([1, 32, 768])
+	query_tokens shape: torch.Size([11, 32, 768])
+	query_output.last_hidden_state shape: torch.Size([11, 32, 768])
+	image_feats shape after vision projection: torch.Size([11, 32, 256])
+(11, 32, 256)
